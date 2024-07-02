@@ -1,0 +1,113 @@
+/* Reset some default styles */
+body, h1, textarea, button, select {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #282c34;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.Home, .Dashboard, .GenerateImage {
+  background-color: #20232a;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.Home button, .Dashboard button, .GenerateImage button {
+  background-color: #61dafb;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  padding: 0.75rem 1.5rem;
+  margin: 1rem 0.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.Home button:hover, .Dashboard button:hover, .GenerateImage button:hover {
+  background-color: #21a1f1;
+}
+
+textarea, select {
+  width: 80%;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px solid #61dafb;
+  font-size: 1rem;
+  background-color: #333;
+  color: #fff;
+}
+
+textarea {
+  height: 150px;
+  resize: none;
+}
+
+img {
+  margin-top: 1rem;
+  max-width: 100%;
+  border-radius: 10px;
+}
+.Login, .Signup {
+  background-color: #20232a;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  margin: auto;
+}
+
+.Login h1, .Signup h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.Login form, .Signup form {
+  display: flex;
+  flex-direction: column;
+}
+
+.Login input, .Signup input {
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  border-radius: 5px;
+  border: 1px solid #61dafb;
+  background-color: #333;
+  color: #fff;
+}
+
+.Login button, .Signup button {
+  background-color: #61dafb;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  padding: 0.75rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.Login button:hover, .Signup button:hover {
+  background-color: #21a1f1;
+}
